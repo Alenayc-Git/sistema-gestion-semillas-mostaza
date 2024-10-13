@@ -35,7 +35,7 @@ composer install
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=dbsistemaventas 
+DB_DATABASE="el nombre de tu base de datos sin las comillas"
 DB_USERNAME=root
 DB_PASSWORD=
 ```
