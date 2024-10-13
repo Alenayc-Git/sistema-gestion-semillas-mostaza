@@ -5,30 +5,29 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Sistema de gestión para la tienda naturista semillas de mostaza" />
-    <meta name="author" content="Jonatan Carrillo y Jhon Murcía" />
+    <meta name="description" content="Sistema de ventas para gestionar compras, ventas
+    clientes, proveedores, productos, categorías, etc. Ideal para pequeños y medianos negocios que deesen 
+    automatizar sus procesos y tener a la mano cualquier información sobre su negocio" />
+    <meta name="author" content="Jonatan Carrillo Jhon Murcía" />
     <title>Sistema de venta</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
-<body class="bg-light">
+<body class="vh-100 z-1 bg-light">
 
     <!--Barra de navegación--->
-    <nav class="navbar navbar-expand-md bg-body-dark z-1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  z-1 ">
         <div class="container-fluid">
             <!---Marca navegación-->
-            <a class="navbar-brand" href="{{route('panel')}}">
+            <a class="navbar-brand text-dark" href="{{route('panel')}}">
                 <img src="{{ asset('assets/img/leaf-outline.svg') }}" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
                 Sistema de gestión
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <!----Lista de opciones del menú-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{route('panel')}}">Inicio</a>
+                        <a class="nav-link active text-dark" aria-current="page" href="{{route('panel')}}">Inicio</a>
                     </li>
                 </ul>
 
@@ -40,7 +39,7 @@
         </div>
     </nav>
 
-        <img src="{{asset('assets/img/Fondo.jpg')}}" class="d-block vh-100 position-absolute top-50 start-50 translate-middle fixed-top z-1" alt="banner de invitacion">
+    <img src="{{asset('assets/img/Fondo.jpg')}}" class="d-block vh-100 z-0 fixed-top position-absolute top-50 start-50 translate-middle" alt="banner de invitacion">
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
