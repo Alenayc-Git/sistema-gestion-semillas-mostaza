@@ -146,7 +146,7 @@
         </div>
         <div class="card-body table-responsive">
             <table class="table table-striped">
-                <thead class="bg-primary">
+                <thead class="bg-success">
                     <tr class="align-top">
                         <th class="text-white">Producto</th>
                         <th class="text-white">Cantidad</th>

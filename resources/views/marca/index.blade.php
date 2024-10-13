@@ -24,7 +24,7 @@
     @can('crear-marca')
     <div class="mb-4">
         <a href="{{route('marcas.create')}}">
-            <button type="button" class="btn btn-primary">Añadir nuevo registro</button>
+            <button type="button" class="btn btn-success">Añadir nueva marca</button>
         </a>
     </div>
     @endcan

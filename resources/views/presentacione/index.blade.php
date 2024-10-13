@@ -22,7 +22,7 @@
     @can('crear-presentacione')
     <div class="mb-4">
         <a href="{{route('presentaciones.create')}}">
-            <button type="button" class="btn btn-primary">Añadir nuevo registro</button>
+            <button type="button" class="btn btn-success">Añadir nueva presentación</button>
         </a>
     </div>
     @endcan

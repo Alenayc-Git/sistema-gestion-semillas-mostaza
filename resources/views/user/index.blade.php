@@ -24,7 +24,7 @@
     @can('crear-user')
     <div class="mb-4">
         <a href="{{route('users.create')}}">
-            <button type="button" class="btn btn-primary">Añadir nuevo usuario</button>
+            <button type="button" class="btn btn-success">Añadir nuevo usuario</button>
         </a>
     </div>
     @endcan

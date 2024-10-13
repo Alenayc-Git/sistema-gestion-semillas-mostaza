@@ -25,14 +25,14 @@
         <div class="row gy-4">
             <!------Compra producto---->
             <div class="col-xl-8">
-                <div class="text-white bg-primary p-1 text-center">
+                <div class="text-white bg-success p-1 text-center">
                     Detalles de la compra
                 </div>
-                <div class="p-3 border border-3 border-primary">
+                <div class="p-3 border border-3 border-success">
                     <div class="row">
                         <!-----Producto---->
                         <div class="col-12 mb-4">
-                            <select name="producto_id" id="producto_id" class="form-control selectpicker" data-live-search="true" data-size="1" title="Busque un producto aquí">
+                            <select name="producto_id" id="producto_id" class="form-control selectpicker" data-live-search="true" data-size="4" title="Busque un producto aquí">
                                 @foreach ($productos as $item)
                                 <option value="{{$item->id}}">{{$item->codigo.' '.$item->nombre}}</option>
                                 @endforeach
@@ -59,14 +59,14 @@
 
                         <!-----botón para agregar--->
                         <div class="col-12 mb-4 mt-2 text-end">
-                            <button id="btn_agregar" class="btn btn-primary" type="button">Agregar</button>
+                            <button id="btn_agregar" class="btn btn-success" type="button">Agregar</button>
                         </div>
 
                         <!-----Tabla para el detalle de la compra--->
                         <div class="col-12">
                             <div class="table-responsive">
                                 <table id="tabla_detalle" class="table table-hover">
-                                    <thead class="bg-primary">
+                                    <thead class="bg-success">
                                         <tr>
                                             <th class="text-white">#</th>
                                             <th class="text-white">Producto</th>
@@ -96,7 +96,7 @@
                                         </tr>
                                         <tr>
                                             <th></th>
-                                            <th colspan="4">IGV %</th>
+                                            <th colspan="4">IVA %</th>
                                             <th colspan="2"><span id="igv">0</span></th>
                                         </tr>
                                         <tr>
@@ -242,7 +242,7 @@
     let total = 0;
 
     //Constantes
-    const impuesto = 18;
+    const impuesto = 19;
 
     function cancelarCompra() {
         //Elimar el tbody de la tabla
