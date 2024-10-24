@@ -51,7 +51,7 @@ class Producto extends Model
     {
         $file = $image;
         $name = time() . $file->getClientOriginalName();
-        //$file->move(public_path() . '/img/productos/', $name);
+        //$Archivo->mover(public_path() . '/img/productos/', $name);
         Storage::putFileAs('/public/productos/',$file,$name,'public');
 
         return $name;

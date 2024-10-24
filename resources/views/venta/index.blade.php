@@ -28,7 +28,7 @@
     @can('crear-venta')
     <div class="mb-4">
         <a href="{{route('ventas.create')}}">
-            <button type="button" class="btn btn-primary">Añadir nuevo registro</button>
+            <button type="button" class="btn btn-success">Añadir nueva venta</button>
         </a>
     </div>
     @endcan

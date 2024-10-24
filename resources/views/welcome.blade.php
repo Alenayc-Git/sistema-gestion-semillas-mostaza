@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Sistema de gestión para la tienda naturista semillas de mostaza" />
     <meta name="author" content="Jonatan Carrillo Jhon Murcía" />
-    <title>Sistema de venta</title>
+    <title>Semillas de mostaza</title>
+    <link rel="icon" href="{{ asset('assets/img/leaf-outline.svg') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 

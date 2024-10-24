@@ -9,6 +9,7 @@
     <meta name="author" content="Jonatan Carrillo y Jhon Murcía" />
     <title>Sistema de ventas - Login</title>
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
+    <link rel="icon" href="{{ asset('assets/img/leaf-outline.svg') }}">
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 
